@@ -1,0 +1,23 @@
+img {
+    width : 200px;
+}
+
+body {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: cyan;
+    color :black
+}
+
+.footer{
+    background: darkblue;
+}
+
+.logoBar{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 25px 600px 25px 600px;
+    justify-content: space-between;
+
+}
