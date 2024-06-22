@@ -5,9 +5,9 @@ img {
 body {
     margin: 0;
     text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: rgb(173, 248, 255);
-    color :black
+    color :darkblue
 }
 
 .topnav{
@@ -102,9 +102,24 @@ body {
 }
 
 .blankPage{
-    padding: 125px 500px 500px 400px;
+    padding: 125px 500px 100px 400px;
+    /* padding: 125px 500px 500px 400px; */
     align-items: center;
+    font-size: larger;
 }
+
+.home.underneath{
+    padding: 0px 500px 50px 400px;
+    z-index: 5;
+}
+
+.homeImage{
+    padding: 50px 0px 25px 0px;
+}
+
+
+
+
 
 
 
