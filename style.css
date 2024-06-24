@@ -94,11 +94,12 @@ body {
 
 
 .home{
-    padding: 125px 500px 200px 400px;
+    /* padding: 125px 500px 200px 400px; */
     align-items: center;
     text-align: left;
     align-items: center;
-    display:flex
+    display:flex;
+    /* background-color: rgb(173, 248, 255); */
 }
 
 .blankPage{
@@ -109,12 +110,21 @@ body {
 }
 
 .home.underneath{
-    padding: 0px 500px 50px 400px;
-    z-index: 5;
+    /* padding: 500px 500px 50px 400px; */
+    /* padding: 0px 500px 50px 400px; */
+    z-index: 4;
+    position: relative;
+    background-color: rgb(173, 248, 255);
+    padding: 0px 200px 50px 200px;
+    max-width: 400px;
+    margin: auto;
+    font-size: larger;
 }
 
 .homeImage{
-    padding: 50px 0px 25px 0px;
+    padding: 90px 0px 25px 0px;
+    z-index: 1;
+    position:fixed;
 }
 
 
@@ -126,6 +136,8 @@ body {
 
 .footer{
     background-color: darkblue;
+    position:relative;
+    z-index: 3;
 }
 
 .logoBar{
@@ -134,4 +146,6 @@ body {
     text-align: center;
     padding: 25px 600px 25px 600px;
     justify-content: space-between;
+    position:relative;
+    z-index: 3;
 }
